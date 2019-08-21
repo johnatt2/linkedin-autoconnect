@@ -18,5 +18,5 @@ function runAutoConnect(timeInterval, limit, occupationKeyword) {
     setInterval(autoConnect,timeInterval,limit,occupationKeyword);
 }
 
-//Example w/ 10 connections click every 86400000 ms (one day)
-runAutoConnect(86400000, 50);
+//Example w/ 20 connections click every 86400000 ms (one day)
+runAutoConnect(86400000, 20);
